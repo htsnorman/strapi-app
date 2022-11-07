@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     connection: {
       host: env('DATABASE_HOST', '192.168.156.100'),
       port: env.int('DATABASE_PORT', 5432),
-      database: env('DATABASE_NAME', 'nrmn-psql'),
+      database: env('DATABASE_NAME', 'psql-nrmn'),
       user: env('DATABASE_USERNAME', 'strapi'),
       password: env('DATABASE_PASSWORD', 'strapi'),
       ssl: env.bool('DATABASE_SSL', false),
